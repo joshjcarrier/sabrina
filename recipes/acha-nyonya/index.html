@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Sabrina&#39;s Cookbook</title>
+
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/liberation-mono" type="text/css" />
+
+<style>
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: 'LiberationMonoRegular';
+    font-weight: normal;
+    font-style: normal;
+  }
+</style><body><nav class="pa2">
+  <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">Sabrina&#39;s Cookbook</a>
+  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">Categories</a>
+  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">Tags</a>
+  <a class="link dim gray    f6 f5-ns dib" href="#" title="Contact">Search</a>
+</nav><div id="content">
+
+<div class="center" itemscope itemtype="http://schema.org/Recipe">
+  <article class="">
+    <header class="tc ttu">
+      <h1 class="f1 measure center" itemprop="name">Acha Nyonya</h1>
+      <h3 class="f3 measure center">Sour, spicy and sweet pickled vegetable appetizer</h3>
+    </header>
+
+    <div class="w-100 h-100 flex flex-wrap flex-auto flex-row-l flex-column">
+      <div class="h-100-l order-1-l order-2 flex-grow-1 pv4 pl6">
+        
+        
+        
+        
+        
+
+        
+<h4 class="f4 measure underline">Acha Nyonya</h4>
+<ol class="sm-col sm-col-6 lg-col-6" itemprop="recipeInstructions">
+  
+  <li class="measure pb4">
+    Firstly, boil water with salt and a tablespoon vinegar (enough to cover vegetable). Add various vegetables once at a time (boil for a few seconds). Take out vegetables to dry in the sun or drain with a clean towel.</li>
+  
+  <li class="measure pb4">
+    Secondly, fry slice garlic and ground ingredients. Add in salt, sugar, vinegar and peanut.</li>
+  
+  <li class="measure pb4">
+    Finally, add vegetables, sesame seed and stir them well in the kuali.</li>
+  
+</ol>
+
+      </div>
+      <div class="h-100-l order-2-l order-1 flex-grow-1 pa4">
+        
+        <h4 class="f5 measure underline">Vegetables</h4>
+<div class="sm-col sm-col-6 lg-col-6">
+  <ul itemprop="ingredients">
+    
+    
+    <li itemprop="recipeIngredient">
+      Cabbage</li>
+    
+    <li itemprop="recipeIngredient">
+      Long Bean</li>
+    
+    <li itemprop="recipeIngredient">
+      Carrot</li>
+    
+    <li itemprop="recipeIngredient">
+      Timbun</li>
+    
+  </ul>
+</div>
+        
+        <h4 class="f5 measure underline">Pound Ingredients</h4>
+<div class="sm-col sm-col-6 lg-col-6">
+  <ul itemprop="ingredients">
+    
+    
+    <li itemprop="recipeIngredient">
+      Red Chili</li>
+    
+    <li itemprop="recipeIngredient">
+      Onion</li>
+    
+    <li itemprop="recipeIngredient">
+      Kunyit</li>
+    
+    <li itemprop="recipeIngredient">
+      Jintan Manis (optional)</li>
+    
+    <li itemprop="recipeIngredient">
+      Ketumbar Seed (optional)</li>
+    
+    <li itemprop="recipeIngredient">
+      Belachan (optional)</li>
+    
+    <li itemprop="recipeIngredient">
+      Serai (optional)</li>
+    
+  </ul>
+</div>
+        
+
+        <h4 class="f5 measure underline">Acha Nyonya</h4>
+<div class="sm-col sm-col-6 lg-col-6">
+  <ul itemprop="ingredients">
+    
+    
+    <li itemprop="recipeIngredient" class="i">
+      Vegetables</li>
+    
+    <li itemprop="recipeIngredient" class="i">
+      Pound Ingredients</li>
+    
+    
+    
+    <li itemprop="recipeIngredient">
+      Oil</li>
+    
+    <li itemprop="recipeIngredient">
+      Peanut (fry, then pound)</li>
+    
+    <li itemprop="recipeIngredient">
+      Vinegar (according to taste)</li>
+    
+    <li itemprop="recipeIngredient">
+      Garlic (slice)</li>
+    
+    <li itemprop="recipeIngredient">
+      Sesame Seed (fry without oil)</li>
+    
+    <li itemprop="recipeIngredient">
+      Salt and Sugar to taste</li>
+    
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <div class="center">
+      <div class="tc" itemprop="description"></div>
+    </div>
+  </article>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+  integrity="sha256-IdYuEFP3WJ/mNlzM18Y20Xgav3h5pgXYzl8fW4GnuPo=" crossorigin="anonymous"></script>
+
+<script>
+  var terms = [{"name":"Alba","translation":"Fenugreek"},{"name":"Belachan","translation":"Fermented Shrimp Paste"},{"name":"Jintan Manis","translation":"Fennel Seeds"},{"name":"Ketumbar","translation":"Corriander"},{"name":"kuali","translation":"wok"},{"name":"Kunyit","translation":"Tumeric"},{"name":"Serai","translation":"Lemongrass"},{"name":"Timbun","translation":"Cucumber"}];
+
+  var context = document.querySelector("#content");
+  var instance = new Mark(context);
+
+  terms.forEach(t => {
+    instance.mark(t["name"], {
+      element: "span",
+      className: "strike mr2",
+      separateWordSearch: false,
+      each: (markAnchor) => {
+        var span = document.createElement('span');
+        span.innerText = "-> " + t["translation"];
+        markAnchor.insertAdjacentElement("afterend", span)
+      }
+    });
+  })
+</script>
+
+    </div></body>
+
+</html>

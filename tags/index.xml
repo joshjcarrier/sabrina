@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sabrina&#39;s Cookbook</title>
+    <link>https://joshjcarrier.github.io/sabrina/tags/</link>
+    <description>Recent content in Tags on Sabrina&#39;s Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://joshjcarrier.github.io/sabrina/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pickled</title>
+      <link>https://joshjcarrier.github.io/sabrina/tags/pickled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joshjcarrier.github.io/sabrina/tags/pickled/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sour</title>
+      <link>https://joshjcarrier.github.io/sabrina/tags/sour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joshjcarrier.github.io/sabrina/tags/sour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spicy</title>
+      <link>https://joshjcarrier.github.io/sabrina/tags/spicy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joshjcarrier.github.io/sabrina/tags/spicy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sweet</title>
+      <link>https://joshjcarrier.github.io/sabrina/tags/sweet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joshjcarrier.github.io/sabrina/tags/sweet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
