@@ -5,6 +5,7 @@
 
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/liberation-mono" type="text/css" />
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dancing" type="text/css" />
 
 <style>
   html,
@@ -15,6 +16,14 @@
     font-family: 'LiberationMonoRegular';
     font-weight: normal;
     font-style: normal;
+  }
+
+  .handwrite {
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: blue;
   }
 </style><body><nav class="pa2">
   <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">Sabrina&#39;s Cookbook</a>
@@ -28,10 +37,16 @@
     <header class="tc ttu">
       <h1 class="f1 measure center" itemprop="name">Acha Nyonya</h1>
       <h3 class="f3 measure center">Sour, spicy and sweet pickled vegetable appetizer</h3>
+      <h3 class="f3 measure center">********************</h3>
+
     </header>
 
     <div class="w-100 h-100 flex flex-wrap flex-auto flex-row-l flex-column">
       <div class="h-100-l order-1-l order-2 flex-grow-1 pv4 pl6">
+        
+        
+        
+        
         
 
         
@@ -52,10 +67,67 @@
       </div>
       <div class="h-100-l order-2-l order-1 flex-grow-1 pa4">
         
+        <h4 class="f5 measure underline">Vegetables</h4>
+<div class="sm-col sm-col-6 lg-col-6">
+  <ul itemprop="ingredients">
+    
+    
+    <li itemprop="recipeIngredient">
+      Cabbage, Taiwanese</li>
+    
+    <li itemprop="recipeIngredient">
+      Long Bean</li>
+    
+    <li itemprop="recipeIngredient">
+      Carrot</li>
+    
+    <li itemprop="recipeIngredient">
+      Timbun</li>
+    
+  </ul>
+</div>
+        
+        <h4 class="f5 measure underline">Pound Ingredients</h4>
+<div class="sm-col sm-col-6 lg-col-6">
+  <ul itemprop="ingredients">
+    
+    
+    <li itemprop="recipeIngredient">
+      Red Chili</li>
+    
+    <li itemprop="recipeIngredient">
+      Onion</li>
+    
+    <li itemprop="recipeIngredient">
+      Kunyit</li>
+    
+    <li itemprop="recipeIngredient">
+      Jintan Manis (optional)</li>
+    
+    <li itemprop="recipeIngredient">
+      Ketumbar Seed (optional)</li>
+    
+    <li itemprop="recipeIngredient">
+      Belachan (optional)</li>
+    
+    <li itemprop="recipeIngredient">
+      Serai (optional)</li>
+    
+  </ul>
+</div>
+        
 
         <h4 class="f5 measure underline">Acha Nyonya</h4>
 <div class="sm-col sm-col-6 lg-col-6">
   <ul itemprop="ingredients">
+    
+    
+    <li itemprop="recipeIngredient" class="underline">
+      Vegetables</li>
+    
+    <li itemprop="recipeIngredient" class="underline">
+      Pound Ingredients</li>
+    
     
     
     <li itemprop="recipeIngredient">
@@ -81,8 +153,11 @@
       </div>
     </div>
 
-    <div class="center">
+    <div class="tc center">
       <div class="tc" itemprop="description"></div>
+
+      <img src="https://joshjcarrier.github.io/images/cookbook/acha-nyonya.jpg" class="w-100 tc dib br4 dib measure f3"
+        style=" filter: grayscale(100%);" />
     </div>
   </article>
 </div>
@@ -99,11 +174,12 @@
   terms.forEach(t => {
     instance.mark(t["name"], {
       element: "span",
-      className: "strike mr2",
+      className: "",
       separateWordSearch: false,
       each: (markAnchor) => {
         var span = document.createElement('span');
-        span.innerText = "-> " + t["translation"];
+        span.className = "handwrite"
+        span.innerText = " (" + t["translation"] + ")";
         markAnchor.insertAdjacentElement("afterend", span)
       }
     });
