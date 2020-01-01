@@ -4,12 +4,12 @@ title: "Acha Nyonya"
 subtitle: Sour, spicy and sweet pickled vegetable appetizer
 image: easy-pancakes.jpg
 date:
-page: 43
 
 authorName:
 authorURL:
-sourceName:
-sourceURL:
+sourceName: Sabrina's cookbook
+sourceLocation: 43
+sourceIMG: /images/cookbook/acha-nyonya.jpg
 category: Appetizer
 cuisine: Nyonya
 tags:
@@ -20,12 +20,10 @@ tags:
 yield:
 prepTime:
 cookTime:
-comments:
-  - Taiwanese cabbage, flattish -- Charles
-components:
+subcomponents:
   - title: "Vegetables"
     ingredients:
-      - Cabbage
+      - Cabbage, Taiwanese
       - Long Bean
       - Carrot
       - Timbun
