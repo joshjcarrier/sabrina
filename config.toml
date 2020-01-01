@@ -1,0 +1,4 @@
+baseURL = "https://joshjcarrier.github.io/sabrina"
+languageCode = "en-us"
+title = "Sabrina's Cookbook"
+theme = "sabrina"
