@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Gloria's Spinach Dip
-subtitle: Easy party platter
+subtitle: Mayo-based dip in a bread bowl
 image:
 date:
 

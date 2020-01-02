@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Acha Nyonya
-subtitle: Sour, spicy and sweet pickled vegetable appetizer
+subtitle: Sour, spicy and sweet pickled veggie salad
 image:
 date:
 

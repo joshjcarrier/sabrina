@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Sabrina's Pineapple Tarts
-subtitle: Delightful little tarts with a fresh pineapple filling
+subtitle: Little oval tarts with a pineapple topping
 image:
 date:
 

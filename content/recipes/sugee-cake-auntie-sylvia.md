@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Aunty Sylvia's Sugee Cake
-subtitle: Eurasian Baking for Celebrations
+subtitle: Dense, buttery, sponge cake for celebrations
 image:
 date:
 

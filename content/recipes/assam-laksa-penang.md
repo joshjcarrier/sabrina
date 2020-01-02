@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Penang Assam Laksa
-subtitle: The epitome of northern nyonya cooking
+subtitle: A sour seafood broth with rice noodles
 image:
 date:
 

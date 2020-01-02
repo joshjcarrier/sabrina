@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Sabrina's Spaghetti Sauce
-subtitle: Makes one big pot of sauce
+subtitle: Tomato-based with spicy beef
 image:
 date:
 
