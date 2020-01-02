@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sabrina&#39;s Cookbook</title>
+<title>Recipes · Sabrina&#39;s Cookbook</title>
 
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/liberation-mono" type="text/css" />
@@ -18,6 +18,20 @@
     font-style: normal;
   }
 
+  @media print {
+    .noprint {
+      visibility: collapse;
+    }
+  }
+
+  .handedit {
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: red;
+  }
+
   .handwrite {
     font-family: 'DancingScriptRegular';
     font-weight: normal;
@@ -25,11 +39,9 @@
     font-size: 1.2rem;
     color: blue;
   }
-</style><body><nav class="pa2">
+</style><body><nav class="pa2 noprint">
   <a class="link dim black b f6 f5-ns dib mr3" href="/sabrina/" title="Home">Sabrina&#39;s Cookbook</a>
-  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Categories">Categories</a>
-  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Tags">Tags</a>
-  <a class="link dim gray    f6 f5-ns dib" href="#" title="Search">Search</a>
+  
 </nav><div id="content">
 <main>
   <article class="cf ph3 ph5-ns pv5">

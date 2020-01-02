@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sabrina&#39;s Cookbook</title>
+<title>Aunty Sylvia&#39;s Sugee Cake · Sabrina&#39;s Cookbook</title>
 
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/liberation-mono" type="text/css" />
@@ -18,6 +18,20 @@
     font-style: normal;
   }
 
+  @media print {
+    .noprint {
+      visibility: collapse;
+    }
+  }
+
+  .handedit {
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: red;
+  }
+
   .handwrite {
     font-family: 'DancingScriptRegular';
     font-weight: normal;
@@ -25,11 +39,9 @@
     font-size: 1.2rem;
     color: blue;
   }
-</style><body><nav class="pa2">
+</style><body><nav class="pa2 noprint">
   <a class="link dim black b f6 f5-ns dib mr3" href="/sabrina/" title="Home">Sabrina&#39;s Cookbook</a>
-  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Categories">Categories</a>
-  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Tags">Tags</a>
-  <a class="link dim gray    f6 f5-ns dib" href="#" title="Search">Search</a>
+  
 </nav><div id="content">
 
 <div class="center" itemscope itemtype="http://schema.org/Recipe">
@@ -49,28 +61,35 @@
 
         
 <h4 class="f4 measure underline">Aunty Sylvia&#39;s Sugee Cake</h4>
-<ol class="sm-col sm-col-6 lg-col-6" itemprop="recipeInstructions">
+<ol class="sm-col sm-col-6 lg-col-6 pb2" itemprop="recipeInstructions">
   
-  <li class="measure mb4">
-    Cream butter and sugar well.</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Cream butter and sugar well.
+  </li>
   
-  <li class="measure mb4">
-    Add eggs one at a time beating really well in between each addition.</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Add eggs one at a time beating really well in between each addition.
+  </li>
   
-  <li class="measure mb4">
-    Add vanilla essence. (I mix in the optional extras with the flour and semolina)</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Add vanilla essence. (I mix in the optional extras with the flour and semolina)
+  </li>
   
-  <li class="measure mb4">
-    Fold in all the dry ingredients alternately with the milk.</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Fold in all the dry ingredients alternately with the milk.
+  </li>
   
-  <li class="measure mb4">
-    Add brandy.</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Add brandy.
+  </li>
   
-  <li class="measure mb4">
-    Pour cake mixture into a baking tin which has been lined with greaseproof paper.</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Pour cake mixture into a baking tin which has been lined with greaseproof paper.
+  </li>
   
-  <li class="measure mb4">
-    Bake on the centre shelf of a moderate oven (180℃/350℉) for 1 hour or so until the centre of the cake is cooked. Test with metal or bamboo skewer.</li>
+  <li class="measure mb4" onclick="this.classList.toggle('strike');">
+    Bake on the centre shelf of a moderate oven (180℃/350℉) for 1 hour or so until the centre of the cake is cooked. Test with metal or bamboo skewer.
+  </li>
   
 </ol>
 
@@ -78,7 +97,7 @@
       <div class="w-30-l h-100-l order-2-l order-1 ph4 pb4">
         
         <h4 class="f5 measure underline">Optional Extras</h4>
-<div class="sm-col sm-col-6 lg-col-6">
+<div class="sm-col sm-col-6 lg-col-6 pb2">
   <ul itemprop="ingredients">
     
     
@@ -102,7 +121,7 @@
         
 
         <h4 class="f5 measure underline">Aunty Sylvia&#39;s Sugee Cake</h4>
-<div class="sm-col sm-col-6 lg-col-6">
+<div class="sm-col sm-col-6 lg-col-6 pb2">
   <ul itemprop="ingredients">
     
     
@@ -140,7 +159,7 @@
     <div class="tc center pa3">
       <div class="tc" itemprop="description"></div>
 
-      <img src="/sabrina/images/cookbook/sugee-cake-auntie-sylvia.jpg" class="w-100 tc dib br4 dib measure f3"
+      <img src="/sabrina/images/cookbook/sugee-cake-auntie-sylvia.jpg" class="w-100 tc dib br4 dib measure f3 noprint"
         style=" filter: grayscale(100%);" />
     </div>
   </article>
