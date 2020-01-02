@@ -29,7 +29,7 @@ subcomponents:
       - Grind finely.
   - title: Sauce
     ingredients:
-      - 150 g groundnuts
+      - 150g groundnuts
       - 5 dried chillies soaked in warm water for 15 minutes
       - 5 shallots
       - 4 pips garlic
@@ -42,12 +42,12 @@ subcomponents:
       - sugar and salt to taste
       - 1 tbsp tamarind paste
     directions:
-      - Fry groundnuts on low heat without oil until brown, stirring continuously. Cool, sskin and pound coarsely.
+      - Fry groundnuts on low heat without oil until brown, stirring continuously. Cool, skin and pound coarsely.
       - Grind corriander and cummin seeds finely.
       - Grind shallots, garlic, lemon grass and tumeric finely.
       - Add shrimp and tamarind paste and mix well.
       - Grind chillies finely.
-      - Add 2 rice bowls of water to grated coconut to sqeueeze for milk.
+      - Add 2 rice bowls of water to grated coconut to squeeze for milk.
 
   - title: Ketupat (rice cakes)
     ingredients:

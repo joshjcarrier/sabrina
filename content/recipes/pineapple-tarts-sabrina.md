@@ -44,7 +44,7 @@ ingredients:
 directions:
   - In a large bowl, combine all-purpose, self-rising flour and salt. Cut in butter until mixture resembles course crumbs. Make a well in the center of the mixture. Pour in 1 beaten egg and water. Bind the ingredeints together gently. Do not knead too much. Shape dough into a ball, wrap in plastic and refridgerate for 4 hours or overnight.
   - Prepare Jam.
-  - Preheat the oven to 400℉ (200℃).
+  - Preheat the oven to 200℃.
   - On a lightly floured surface, roll the dough out to 1/4 inch in thickness. Cut 24 rounds, using a 2 inch round fluted cutter. Place on a cookie sheet. Put a spoonful of pineapple jam in the center of each piece. Decorate with criss-cross strips of pastry over jam, extending slightly onto pastry shell.
   - Cut 24 more 2 inch rounds, then, using a small cutter, cut out the centers, creating a ring shape. Moisten the edges of each pastry, and place the rings on top of each pastry shell. Brush the top of the pastry with beaten egg.
   - Bake for 20 to 25 minutes in the preheated oven. Allow to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely.

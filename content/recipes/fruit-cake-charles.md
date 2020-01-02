@@ -50,7 +50,7 @@ ingredients:
 
 directions:
   - Prepare Floured Fruit.
-  - Preheat oven to 275℉ (135℃). Grease an 8x8x3 inch fruit cake pan, line with parchment paper, and grease again. In a small bowl, mix together 2 cups flour, baking soda, cloves, allspice, cinnamon, nutmeg and salt; set aside.
+  - Preheat oven to 135℃. Grease an 8x8x3 inch fruit cake pan, line with parchment paper, and grease again. In a small bowl, mix together 2 cups flour, baking soda, cloves, allspice, cinnamon, nutmeg and salt; set aside.
   - In a large bowl, cream butter until light. Gradually blend in brown sugar and eggs. Mix together molasses and apple juice. Beat into butter mixture alternately with flour mixture, making 4 dry and 3 liquid additions. Fold in floured fruit. Turn batter into prepared pan.
   - Bake in preheated oven for 3 to 3 1/2 hours, or until a toothpick inserted into the center of cake comes out clean. Remove from pan, and lift off paper. Cool cake complteely, then wrap loosely in waxed paper. Store in an airtight container.
 ---

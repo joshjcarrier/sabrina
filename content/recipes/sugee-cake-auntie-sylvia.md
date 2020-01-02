@@ -19,7 +19,7 @@ yield:
 prepTime:
 cookTime:
 subcomponents:
-  - title: "Optional Extras"
+  - title: Optional Extras
     ingredients:
       - Raisins or sultanas
       - Coursely ground almonds
@@ -43,5 +43,5 @@ directions:
   - Fold in all the dry ingredients alternately with the milk.
   - Add brandy.
   - Pour cake mixture into a baking tin which has been lined with greaseproof paper.
-  - Bake on the centre shelf of a moderate oven (180℃/350℉) for 1 hour or so until the centre of the cake is cooked. Test with metal or bamboo skewer.
+  - Bake on the centre shelf of a moderate oven (180℃) for 1 hour or so until the centre of the cake is cooked. Test with metal or bamboo skewer.
 ---

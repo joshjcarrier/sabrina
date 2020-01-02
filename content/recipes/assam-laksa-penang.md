@@ -29,8 +29,8 @@ subcomponents:
       - Grind finely.
 
 ingredients:
-  - 600 g fresh coarse rice vermicelli or rice macaroni
-  - 600 g kembung or canned tuna
+  - 600g fresh coarse rice vermicelli or rice macaroni
+  - 600g kembung or canned tuna
   - 2 pieces assam keping
   - 1 tsp sugar
   - 1 bungan kantan
@@ -41,7 +41,7 @@ ingredients:
   - 3 fresh red chillies, sliced finely as a slant
   - 1 small pineapple
   - Monosodium glutamate (optional)
-  - heh koh
+  - Heh Koh
 
 directions:
   - Skin cucumber, slice, discard core and shred.
