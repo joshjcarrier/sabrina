@@ -1,7 +1,14 @@
 #!/bin/sh
 
+git add content data static && git commit -m "docs(recipes): Update recipes"
+
 echo "Updating sabrina theme"
-cd themes/sabrina && git pull
+git pull --all
+
+if [ "`git status -s`" ]
+then
+    git add themes/sabrina && git commit -m "chore(theme): Update theme"
+fi
 
 if [ "`git status -s`" ]
 then
