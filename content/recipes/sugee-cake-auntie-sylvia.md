@@ -14,6 +14,7 @@ category: Desserts
 cuisine: Eurasian
 tags:
   - Buttery
+  - Christmas
 yield:
 prepTime:
 cookTime:
