@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://joshjcarrier.github.io/sabrina/recipes/</loc>
+  </url>
+  
+  <url>
     <loc>https://joshjcarrier.github.io/sabrina/recipes/acha-nyonya/</loc>
   </url>
   
@@ -27,11 +31,23 @@
   </url>
   
   <url>
+    <loc>https://joshjcarrier.github.io/sabrina/tags/classic/</loc>
+  </url>
+  
+  <url>
     <loc>https://joshjcarrier.github.io/sabrina/tags/dip/</loc>
   </url>
   
   <url>
     <loc>https://joshjcarrier.github.io/sabrina/tags/excellent/</loc>
+  </url>
+  
+  <url>
+    <loc>https://joshjcarrier.github.io/sabrina/recipes/bee-hoon/</loc>
+  </url>
+  
+  <url>
+    <loc>https://joshjcarrier.github.io/sabrina/recipes/sambar-gheeta/</loc>
   </url>
   
   <url>
@@ -59,11 +75,11 @@
   </url>
   
   <url>
-    <loc>https://joshjcarrier.github.io/sabrina/recipes/satay-pork/</loc>
+    <loc>https://joshjcarrier.github.io/sabrina/recipes/playdough/</loc>
   </url>
   
   <url>
-    <loc>https://joshjcarrier.github.io/sabrina/recipes/</loc>
+    <loc>https://joshjcarrier.github.io/sabrina/recipes/satay-pork/</loc>
   </url>
   
   <url>
@@ -100,6 +116,10 @@
   
   <url>
     <loc>https://joshjcarrier.github.io/sabrina/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://joshjcarrier.github.io/sabrina/tags/vegetarian/</loc>
   </url>
   
 </urlset>
