@@ -10,7 +10,7 @@ authorURL:
 sourceName: Sabrina's cookbook
 sourceLocation: 129
 sourceIMG: /images/cookbook/spaghetti-sabrina.jpg
-category: Italian
+category: Noodles
 cuisine: Italian
 tags:
   - Excellent
