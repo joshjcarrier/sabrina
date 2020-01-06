@@ -34,7 +34,7 @@ ingredients:
   - bread crumbs (grind to make finer)
   - eggs
   - salt, to taste
-  - sguar, to taste
+  - sugar, to taste
 
 directions:
   - Clean the fish and steam for about 20 mins.
